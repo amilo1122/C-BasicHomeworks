@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\bin\Debug\net6.0\HW11.exe
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\bin\Debug\net6.0\HW11.deps.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\bin\Debug\net6.0\HW11.runtimeconfig.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\bin\Debug\net6.0\HW11.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\bin\Debug\net6.0\HW11.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.AssemblyInfoInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.AssemblyInfo.cs
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\refint\HW11.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\HW11.genruntimeconfig.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW11\HW11\obj\Debug\net6.0\ref\HW11.dll

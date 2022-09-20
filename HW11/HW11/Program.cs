@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        OtusDictionary dict = new OtusDictionary();
-        
+        var dict = new OtusDictionary();
+      
         while (true)
         {
             Console.WriteLine("Введите пару ключ-значение через :");
@@ -17,17 +17,25 @@ class Program
             Console.WriteLine(dict.Get(key));
         }
     }
-
+    class Dict
+    {
+        public int Key { get; set; }
+        public string Value { get; set; }
+    }
     class OtusDictionary
     {
         private static int capacity = 32;
-        private int[] Keys;
-        private string[] Values;
+        private Dict[] Dict;
+
+        //public Dict this[int i]
+        //{
+        //    get { return Dict[i]; }
+        //    set { Dict[i] = value; }
+        //}
 
         public OtusDictionary()
         {
-            Keys = new int[capacity];
-            Values = new string[capacity];
+            Dict = new Dict[capacity];
         }
 
         public void Add(int key, string value)
@@ -37,9 +45,9 @@ class Program
             {
                 throw new ArgumentNullException("Value cannot be null");
             }
-            if (Values[index] != null)
+            if (Dict[index] != null)
             {
-                if (Keys[index] != key)
+                if (Dict[index].Key != key)
                 {
                     ResizeArray();
                 }
@@ -49,16 +57,18 @@ class Program
                 }
                 index = key % capacity;
             }
-            Keys[index] = key;
-            Values[index] = value;
+            var currentPair = new Dict();
+            currentPair.Key = key;
+            currentPair.Value = value;
+            Dict[index] = currentPair;
         }
 
         public string? Get(int key)
         {
             int index = key % capacity;
-            if (Values[index] != null)
+            if (Dict[index] != null)
             {
-                return Values[index];
+                return Dict[index].Value;
             }
             throw new ArgumentException("The given key was not present in the dictionary");
         }
@@ -66,17 +76,15 @@ class Program
         private void ResizeArray()
         {
             capacity *= 2;
-            int[] newKeys = new int[capacity];
-            string[] newValues = new string[capacity];
-            foreach (var key in Keys)
+            Dict[] newDict = new Dict[capacity];
+            foreach (var item in Dict)
             {
-                string value = Values[key];
-                int index = key % capacity;
-                newKeys[index] = key;
-                newValues[index] = value;
+                string value = item.Value;
+                int index = item.Key % capacity;
+                newDict[index].Key = item.Key;
+                newDict[index].Value = value;
             }
-            Values = newValues;
-            Keys = newKeys;
+            Dict = newDict;            
         }
     }
 }
