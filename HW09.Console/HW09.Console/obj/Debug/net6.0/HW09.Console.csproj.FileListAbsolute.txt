@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\bin\Debug\net6.0\HW09.Console.exe
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\bin\Debug\net6.0\HW09.Console.deps.json
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\bin\Debug\net6.0\HW09.Console.runtimeconfig.json
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\bin\Debug\net6.0\HW09.Console.dll
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\bin\Debug\net6.0\HW09.Console.pdb
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.AssemblyInfoInputs.cache
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.AssemblyInfo.cs
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.dll
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\refint\HW09.Console.dll
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.pdb
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\HW09.Console.genruntimeconfig.cache
+C:\Users\Ilya\source\repos\C#Basic\HW09.Console\HW09.Console\obj\Debug\net6.0\ref\HW09.Console.dll

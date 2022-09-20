@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\bin\Debug\net6.0\HW01.exe
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\bin\Debug\net6.0\HW01.deps.json
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\bin\Debug\net6.0\HW01.runtimeconfig.json
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\bin\Debug\net6.0\HW01.dll
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\bin\Debug\net6.0\HW01.pdb
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.AssemblyInfoInputs.cache
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.AssemblyInfo.cs
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.dll
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\refint\HW01.dll
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.pdb
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\HW01.genruntimeconfig.cache
+C:\Users\Ilya\source\repos\C#Basic\HW01\HW01\obj\Debug\net6.0\ref\HW01.dll
