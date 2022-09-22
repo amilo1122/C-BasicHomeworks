@@ -9,6 +9,9 @@ static class Program
         var newList = list.Top(30);
         Console.WriteLine(string.Join(" ", newList));
 
+        var newList1 = list.Top(30, person => person.Age);
+        Console.WriteLine(string.Join(" ", newList1));
+
     }
     public static IEnumerable<int> Top(this IEnumerable<int> items, double X)
     {
@@ -23,13 +26,15 @@ static class Program
         return items.Reverse().Take((int)countToReturn);
     }
 
-    public static IEnumerable<int> Top(this IEnumerable<int> items, double X, int Y)
+    public static IEnumerable<int> Top(this IEnumerable<int> items, double X, PersonExtractor person)
     {
         return items;
     }
 
-    public static int Person<T>(T func)
+    public delegate string PersonExtractor(int person);
+
+    class Person
     {
-        return 0;
+        public int Age { get; set; }
     }
 }

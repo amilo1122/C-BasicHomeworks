@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilya\\source\\repos\\C#Basic\\HW07\\HW07\\HW07.csproj",
+      "projectUniqueName": "C:\\Users\\Ilya\\source\\repos\\C#BasicHW\\HW07\\HW07\\HW07.csproj",
       "projectName": "HW07",
-      "projectPath": "C:\\Users\\Ilya\\source\\repos\\C#Basic\\HW07\\HW07\\HW07.csproj",
+      "projectPath": "C:\\Users\\Ilya\\source\\repos\\C#BasicHW\\HW07\\HW07\\HW07.csproj",
       "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilya\\source\\repos\\C#Basic\\HW07\\HW07\\obj\\",
+      "outputPath": "C:\\Users\\Ilya\\source\\repos\\C#BasicHW\\HW07\\HW07\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ilya\\AppData\\Roaming\\NuGet\\NuGet.Config",
