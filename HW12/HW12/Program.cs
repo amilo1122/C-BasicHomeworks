@@ -1,35 +1,92 @@
 ﻿using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 
-namespace HW12;
+namespace HW12.ObservableCollection;
 
 static class Program
 {
     static void Main(string[] args)
     { 
+        Customer customer = new Customer();
+        Shop shop = new Shop(customer.OnItemChanged);
 
+        Console.WriteLine("Для добавления товара нажмите 'A', для удаления товара - 'D', для выхода - 'X'");
+
+        var flag = true;
+        while (flag)
+        {
+            switch (Console.ReadKey().KeyChar)
+            {
+                case 'A':
+                    Console.WriteLine();
+                    shop.Add();
+                    break;
+                case 'D':
+                    Console.WriteLine();
+                    RemoveItemById(shop);
+                    break;
+                case 'X':
+                    flag = false;
+                    break;
+            }
+        }
+    }
+
+    private static void RemoveItemById(Shop shop)
+    {
+        Console.WriteLine("Введите id товара для удаления:");
+        var flag = false;
+        int id = -1;
+        while (!flag)
+        {
+            if (Int32.TryParse(Console.ReadLine(), out id))
+            {
+                Console.WriteLine();
+                if (shop.Remove(id))
+                {
+                    flag = true;
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Товара с указанным id не существует, введите другой id");
+                    continue;
+                }
+            }
+            Console.WriteLine("Введите корректный id");
+        }
     }
 
     public class Shop
     {
         public readonly ObservableCollection<Item> Items = new ObservableCollection<Item>();
 
-        public void Add(Item item)
+        public void Add()
         {
-            Items.Add(item);
+            Items.Add(new Item(Items.Count, "Товар от " + DateTime.Now));
         }
 
-        public void Remove(Item item)
+        public bool Remove(int id)
         {
-            Items.Remove(item);
+            var item = Items.FirstOrDefault(i => i.Id == id);
+            if (item != null)
+            {
+                Items.Remove(item);
+                return true;
+            }
+            return false;
         }
 
+        public Shop(NotifyCollectionChangedEventHandler onItemChanged)
+        {
+            Items.CollectionChanged += onItemChanged;
+        }
     }
 
     public class Customer
     {
         
-        void OnItemChanged(object? sender, NotifyCollectionChangedEventArgs e)
+        public void OnItemChanged(object? sender, NotifyCollectionChangedEventArgs e)
         {
             switch (e.Action)
             {
@@ -49,5 +106,11 @@ static class Program
     {
         public int Id { get; set; }
         public string? Name { get; set; }
+
+        public Item(int id, string? name)
+        {
+            Id = id;
+            Name = name;
+        }   
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\bin\Debug\net6.0\JackHouse.exe
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\bin\Debug\net6.0\JackHouse.deps.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\bin\Debug\net6.0\JackHouse.runtimeconfig.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\bin\Debug\net6.0\JackHouse.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\bin\Debug\net6.0\JackHouse.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.AssemblyInfoInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.AssemblyInfo.cs
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\refint\JackHouse.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\JackHouse.genruntimeconfig.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\JackHouse\obj\Debug\net6.0\ref\JackHouse.dll
