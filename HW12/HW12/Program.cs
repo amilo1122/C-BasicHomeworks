@@ -7,31 +7,39 @@ static class Program
 {
     static void Main(string[] args)
     { 
+        // Создаем экземпляры классов, подписываемся на события через контсруктор
         Customer customer = new Customer();
         Shop shop = new Shop(customer.OnItemChanged);
 
+        // Выводим меню
         Console.WriteLine("Для добавления товара нажмите 'A', для удаления товара - 'D', для выхода - 'X'");
 
+        // Заводим флаг
         var flag = true;
+        
         while (flag)
         {
             switch (Console.ReadKey().KeyChar)
             {
                 case 'A':
                     Console.WriteLine();
+                    // Добавляем товар в коллекцию
                     shop.Add();
                     break;
                 case 'D':
                     Console.WriteLine();
+                    // Удаляем товар из коллекции по id
                     RemoveItemById(shop);
                     break;
                 case 'X':
+                    // Выходим из программы
                     flag = false;
                     break;
             }
         }
     }
 
+    // Уточняем id товара для удаленич
     private static void RemoveItemById(Shop shop)
     {
         Console.WriteLine("Введите id товара для удаления:");
@@ -57,6 +65,8 @@ static class Program
         }
     }
 
+
+    // Реализуем класс Shop с 2-мя методами Add и Remove
     public class Shop
     {
         public readonly ObservableCollection<Item> Items = new ObservableCollection<Item>();
@@ -83,6 +93,7 @@ static class Program
         }
     }
 
+    // Реализация класса Customer c реализацией подписки на измененения
     public class Customer
     {
         
@@ -102,6 +113,7 @@ static class Program
         }
     }
 
+    // Реализация класса Item
     public class Item
     {
         public int Id { get; set; }

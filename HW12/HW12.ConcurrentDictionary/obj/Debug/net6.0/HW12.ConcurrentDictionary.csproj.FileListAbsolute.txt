@@ -1,0 +1,15 @@
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\bin\Debug\net6.0\HW12.ConcurrentDictionary.exe
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\bin\Debug\net6.0\HW12.ConcurrentDictionary.deps.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\bin\Debug\net6.0\HW12.ConcurrentDictionary.runtimeconfig.json
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\bin\Debug\net6.0\HW12.ConcurrentDictionary.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\bin\Debug\net6.0\HW12.ConcurrentDictionary.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.csproj.AssemblyReference.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.AssemblyInfoInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.AssemblyInfo.cs
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.csproj.CoreCompileInputs.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\refint\HW12.ConcurrentDictionary.dll
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.pdb
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\HW12.ConcurrentDictionary.genruntimeconfig.cache
+C:\Users\Ilya\source\repos\C#BasicHW\HW12\HW12.ConcurrentDictionary\obj\Debug\net6.0\ref\HW12.ConcurrentDictionary.dll

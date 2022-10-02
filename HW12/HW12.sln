@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW12", "HW12\HW12.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JackHouse", "JackHouse\JackHouse.csproj", "{0BCF8B02-7663-4718-8A9B-675A9B387DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW12.ConcurrentDictionary", "HW12.ConcurrentDictionary\HW12.ConcurrentDictionary.csproj", "{A3801ED0-DC84-4D62-A98C-BFA9D797545F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0BCF8B02-7663-4718-8A9B-675A9B387DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BCF8B02-7663-4718-8A9B-675A9B387DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BCF8B02-7663-4718-8A9B-675A9B387DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3801ED0-DC84-4D62-A98C-BFA9D797545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3801ED0-DC84-4D62-A98C-BFA9D797545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3801ED0-DC84-4D62-A98C-BFA9D797545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3801ED0-DC84-4D62-A98C-BFA9D797545F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
